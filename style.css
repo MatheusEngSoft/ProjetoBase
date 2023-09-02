@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#titulo-menusuperior{
+    margin-top: 206px;
+    margin-left: 62px;
+    font-size: 60px;
+    font-style: normal;
+}
+#texto-menusuperior{
+    margin-top: 20px;
+    margin-left: 62px;
+    padding-bottom: 149px;
+    font-size: 20px;
+    font-style: normal;
+}
+#menusuperior{
+    background-color: #303030;
+    color: #FFF;
+    padding: 10px;
+}
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.tituloinformacional{
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 96px;
+    margin-left: 171px;
+    padding-bottom: 66.82px;
+}
+.paragrafoinformacional{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+#secaoimagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#tituloimagem{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 304px;
+    margin-left: 77px;
+    margin-right: 64px;
+    padding-bottom: 314px;
+}
+#textoimagem{
+    font-size: 24px;
+    font-weight: 300;
+}
+#imagemcasa{
+    margin-top: 82px;
+    padding-bottom: 92px;
+}
+#formulario{
+    background-color: #303030;
+    color: #FFF;
+    text-align: center;
+}
+#tituloformulario{
+    padding-top: 87px;
+    padding-bottom: 48px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #FFF;
+    margin: 30px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 87px;
+    margin-top: 88px;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #b1670c;
+    color: white;
+    transform: translateY(-10px);
+    transition-duration: -0.7s;
+    box-shadow: 0px 20px 25px #5e3504;
+}
